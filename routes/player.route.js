@@ -9,7 +9,7 @@ router.get('/:name', playerController.findPlayer);
 
 router.post('/create', playerController.createPlayer);
 
-router.put('/:id/update', playerController.updatePlayer);
+router.put('/:name/update', playerController.updatePlayer);
 
 router.delete('/:id/delete', playerController.deletePlayer);
 
